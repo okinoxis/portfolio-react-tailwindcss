@@ -7,7 +7,7 @@ import Icon from './a/Icon';
 export default function AboutMe(props) {
 
    return (
-      <div ref={props.section1}  className="flex flex-col items-center justify-start bg-amber-300 overflow-y-auto overflow-x-hidden h-screen">
+      <div ref={props.section1} className="flex flex-col items-center justify-start bg-amber-300 overflow-y-auto overflow-x-hidden h-screen">
          <div className="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center ">
             <div className="w-full lg:w-1/2">
                   <div className="lg:max-w-lg">

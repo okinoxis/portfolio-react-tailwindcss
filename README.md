@@ -1,3 +1,9 @@
+# Simple portfolio with React and Tailwind CSS
+[![GitHub issues](https://img.shields.io/github/issues/okinoxis/simple-portfolio-react)](https://github.com/okinoxis/simple-portfolio-react/issues)
+[![GitHub license](https://img.shields.io/github/license/okinoxis/simple-portfolio-react)](https://github.com/okinoxis/simple-portfolio-react/blob/main/LICENSE.md)
+[![GitHub forks](https://img.shields.io/github/forks/okinoxis/simple-portfolio-react)](https://github.com/okinoxis/simple-portfolio-react/network)
+[![GitHub stars](https://img.shields.io/github/stars/okinoxis/simple-portfolio-react)](https://github.com/okinoxis/simple-portfolio-react/stargazers)
+
 ![GIF 6-10-2022 13-39-40](https://user-images.githubusercontent.com/78431383/194371267-a72c8dcc-ca5c-4bb4-8db9-ff6c216aebf1.gif)
 
 ### About me

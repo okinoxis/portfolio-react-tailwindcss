@@ -1,13 +1,112 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+   background-color: #fcd34d;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html::-webkit-scrollbar {
+   -webkit-appearance: none;
+   background-color: rgb(75 85 99);
+}
+
+html::-webkit-scrollbar:vertical {
+   width:10px;
+}
+
+html::-webkit-scrollbar-button:increment,html::-webkit-scrollbar-button {
+   display: none;
+} 
+
+html::-webkit-scrollbar:horizontal {
+   height: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+   background-color: rgb(156 163 175);
+   border-radius: 20px;
+   border: 2px solid rgb(75 85 99);
+}
+
+html::-webkit-scrollbar-track {
+   border-radius: 10px;  
+}
+
+
+section::-webkit-scrollbar {
+   direction: ltr;
+   -webkit-appearance: none;
+   background-color: #9333ea;
+}
+
+section::-webkit-scrollbar:vertical {
+   width:10px;
+}
+
+section::-webkit-scrollbar-button:increment,section::-webkit-scrollbar-button {
+   display: none;
+} 
+
+section::-webkit-scrollbar:horizontal {
+   height: 10px;
+}
+
+section::-webkit-scrollbar-thumb {
+   background-color: #ef4444;
+}
+
+section::-webkit-scrollbar-track {
+   border-radius: 10px;  
+}
+
+
+div::-webkit-scrollbar {
+   direction: ltr;
+   -webkit-appearance: none;
+   background-color: #fcd34d;
+}
+
+div::-webkit-scrollbar:vertical {
+   width:10px;
+}
+
+div::-webkit-scrollbar-button:increment,div::-webkit-scrollbar-button {
+   display: none;
+} 
+
+div::-webkit-scrollbar:horizontal {
+   height: 10px;
+}
+
+div::-webkit-scrollbar-thumb {
+   background-color: #ef4444;
+}
+
+div::-webkit-scrollbar-track {
+   border-radius: 10px;  
+}
+
+.Flipped{
+   direction: rtl;
+}
+
+.underline-link {
+   background-image: linear-gradient(#ef4444, #ef4444);
+   background-size: 0% 2px;
+   background-repeat: no-repeat;
+   background-position: left bottom;
+   transition: background-size 200ms ease;
+}
+
+.underline-link:hover {
+   background-size: 100% 2px;
+}
+
+.triggers button.active {
+   color: #ffff;
+   background-image: linear-gradient(#ef4444, #ef4444);
+   background-size: 100% 2px;
+   background-repeat: no-repeat;
+   background-position: left bottom;
 }
